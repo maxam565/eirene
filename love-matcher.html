@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="resources/fav.png">
+    <title>Love Matcher</title>
+    <link rel="stylesheet" href="css/matcher.css">
+</head>
+<body>
+    <section>
+        <div class="video-background">
+            <video autoplay loop muted playsinline>
+                <source src="resources/heart.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="container">
+            <div class="matcher-box">
+                <h1>💕 Love Matcher 💕</h1>
+                <div class="input-section">
+                    <div class="name-input">
+                        <label for="name1">First Name:</label>
+                        <input type="text" id="name1" placeholder="Enter first name">
+                    </div>
+                    <div class="heart-icon">❤️</div>
+                    <div class="name-input">
+                        <label for="name2">Second Name:</label>
+                        <input type="text" id="name2" placeholder="Enter second name">
+                    </div>
+                </div>
+                <button class="match-btn" id="matchBtn">Check Compatibility</button>
+                <div class="result" id="result"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/matcher.js"></script>
+</body>
+</html>
